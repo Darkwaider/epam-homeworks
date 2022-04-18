@@ -1,0 +1,34 @@
+{
+  "name": "fl17_hw8",
+  "version": "1.0.0",
+  "description": "myPJ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "../node_modules/.bin/cross-env NODE_ENV=production webpack --mode production",
+    "dev": "../node_modules/.bin/cross-env NODE_ENV=development webpack --mode development",
+    "start": "../node_modules/.bin/cross-env NODE_ENV=development webpack server --mode development"
+  },
+  "author": "Roman",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.5.1",
+    "eslint-webpack-plugin": "^3.1.1",
+    "file-loader": "^6.2.0",
+    "html": "^1.0.0",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "imagemin-webpack": "^5.1.1",
+    "mini-css-extract-plugin": "^2.4.5",
+    "node-sass": "^7.0.0",
+    "sass-loader": "^12.4.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}

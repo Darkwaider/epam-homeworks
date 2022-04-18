@@ -1,0 +1,58 @@
+/* write your styles here */
+.divForRadioButton {
+    display: flex;
+    flex-direction: row;
+}
+.divForLabel{
+    display: flex;
+    flex-direction: column;
+}
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+#select{
+    width: 140px;
+}
+
+.divForSel{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px auto 20px;
+    justify-content: center;
+}
+ .table th, .table td {
+    border: 1px solid #c0c0c0;
+    color: black;
+}
+.table {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.table th {
+    background-color:#247719;
+    color: white;
+    padding: 10px;
+}
+.arrowArea .arrowCountryName  {
+    cursor: pointer;
+}
+.table td {
+    padding: 20px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #e5e2e2fb ;
+}
+
+.table tr:nth-child(even):hover {
+    background-color: #c0c0c0;
+}
